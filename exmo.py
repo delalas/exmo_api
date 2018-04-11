@@ -1,4 +1,4 @@
-import requests
+import requests # pip install requests
 import sys
 import urllib
 import http.client
