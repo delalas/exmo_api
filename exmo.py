@@ -6,7 +6,6 @@ import json
 import hashlib
 import hmac
 import time
-import requests
 
 def sha512(key, data):
     H = hmac.new(key = key, digestmod = hashlib.sha512)
